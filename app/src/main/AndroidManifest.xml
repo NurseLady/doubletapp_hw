@@ -13,12 +13,12 @@
         android:theme="@style/Theme.Doubletapp_hw"
         tools:targetApi="31">
         <activity
-            android:name=".SecondActivity"
+            android:name=".HabitEditActivity"
             android:exported="false"
             android:label="@string/title_activity_second"
             android:theme="@style/Theme.Doubletapp_hw" />
         <activity
-            android:name=".FirstActivity"
+            android:name=".HabitListActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Doubletapp_hw">
@@ -28,6 +28,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ddd.FirstActivity"
+            android:exported="true"
+            android:label="@string/title_activity_second"
+            android:theme="@style/Theme.Doubletapp_hw"
+        />
+        <activity
+            android:name=".ddd.SecondActivity"
+            android:exported="false"
+            android:label="@string/title_activity_second"
+            android:theme="@style/Theme.Doubletapp_hw" />
     </application>
 
 </manifest>
